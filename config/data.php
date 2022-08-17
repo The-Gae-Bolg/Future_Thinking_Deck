@@ -147,7 +147,7 @@ $slabIntro = [
                 'assets/videos/FutureThinking_1_intro.mp4'
             ],
 /*Slab 2*/  [
-                '<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/b0db4946-f5a4-4117-b8ee-de609cbe4099?dark=true"></iframe>'
+                '<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/8b511e22-cd8d-4102-9f45-1edda9dbc63c?dark=false"></iframe>'
             ], 
 /*Slab 3*/  [
                 'Bienvenido al Slab Patrones. <i>¿Cómo identificarlos?</i> donde descubrirás cómo es que puedes relacionar los elementos del contexto para identificar patrones.<br><br>
@@ -158,7 +158,7 @@ $slabIntro = [
                 'assets/videos/FutureThinking_4_intro.mp4'
             ],                
 /*Slab 5*/  [
-                '<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/f8e93b91-8311-4598-8278-1a284788bb4a?dark=true"></iframe>'
+                '<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/ce6de8a8-f0e6-4fa8-879e-0270c0c8192f?dark=false"></iframe>'
             ],
 /*Slab 6*/  [
                 '¡Hola aprendedor! En el Slab <i>#SocialListening</i>. Atrapando la red aprenderás la importancia del sentir de las personas en las redes sociales para entender su perspectiva en el contexto de un proyecto.<br><br>
@@ -169,7 +169,7 @@ $slabIntro = [
                 'assets/videos/FutureThinking_7_intro.mp4'
             ],
 /*Slab 8*/  [
-                '<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/e78be4bf-f13c-443b-b8e9-c9e922879f40?dark=true"></iframe>'
+                '<iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/a9a7cf8f-ef4d-4235-b1fa-2d865c445145?dark=false"></iframe>'
             ],
 /*Slab 9*/  [
                 'Bienvenido al Slab <i>Escenarios. ¿Qué es posible, plausible y probable?</i> en el cual aprenderás sobre las diferencias entre los escenarios para evaluar la factibilidad de lo que puede o no suceder en el futuro.<br><br>
@@ -1599,7 +1599,7 @@ $act3_final_message =
     "¡Felicidades aprendedor! Has terminado con éxito este Slab, donde conociste acerca de <highlight>mega, macro, micro tendencias.</highlight>",
     "¡Lo has hecho muy bien! Si quieres repasar cómo obtener un <highlight>insight,</highlight> puedes regresar al Slab las veces que desees.",
     "¡Un paso más rumbo al éxito! Ahora sabes sobre escenarios <highlight>posibles, plausibles y probables.</highlight> Sigue aprendiendo.",
-    "¡Te felicitamos por terminar este Slab! Ahora conoces más sobre <highlight>Diseño de futuros.</highlight>",
+    "¡Te felicitamos por terminar este Slab! Ahora conoces más sobre <highlight>estrategia con OKRs.</highlight>",
 ];
 
 //-- Cierre Deck --
