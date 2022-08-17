@@ -1,0 +1,419 @@
+body{
+    padding-right: 0 !important;
+}
+
+.h-px-400{
+    height: 400px !important;
+}
+
+.hg100{
+    height: 100% !important;
+}
+
+.wd30{
+    width: 30% !important;
+}
+
+.wd100{
+    width: 100% !important;
+}
+
+.audio{
+   width: 100% !important;
+   height: 10vh !important;
+}
+
+.materiales img {
+    width: 100%;
+}
+
+.material{
+    border-radius: 10px;
+}
+
+.intro-video video{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.estilo-x {
+    font-size: calc(.55em + .55vw);
+}
+
+.estilo-ref {
+    font-size: calc(.6em + .6vw);
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position:relative;
+    padding:0px;
+}
+.close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+}
+
+header{
+    background:#FCF7EE;
+}
+
+.status {
+    margin-bottom: 1.5rem;
+}
+
+.video img, .material{
+    border-radius: 1rem;
+}
+
+footer {
+    color:#939596;
+    background: #000;
+}
+
+.progress {
+    margin-top: 5px;
+    border-radius: 0.5rem;
+}
+
+/*.progress::before{
+    content: "Progreso deck";
+}*/
+
+.meta-title {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.mete-text{
+    font-size: 16px;
+}
+
+.slab-title {
+    font-size: 2.3em;
+}
+
+
+
+.act-card .act-img {
+    position: absolute;
+}
+
+.slab-heading{
+    font-size:24px;
+    color:#0000AF;
+    text-decoration: none;
+}
+
+.return-icon {
+    color:inherit;
+    font-weight: bold;
+}
+
+.slab-heading:hover, .slab-heading:focus, .slab-heading::before:hover{
+    color:#004DFF;
+}
+
+.act-card{
+    background-color: #f6f6f6;
+    border-radius: 1.5rem;
+    position: relative;
+    padding-left: 1.5rem !important;
+}
+
+.act-card h4 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.act-card h3 {
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.act:last-child h3{
+    /*font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+    */
+    font-size: 1vw;
+    margin-bottom: 0;
+    
+}
+
+.slab-progress{
+    box-shadow: 5px,5px, 10px, 10px;
+}
+
+.disabled{
+    opacity: 0.5;
+}
+
+.disabled h4, .disabled h3{
+    color: #222222 !important;;
+}
+
+
+a i {
+    color:#fff;
+}
+
+.act-card a {
+    position: absolute;
+    left: -5px;
+    bottom:-35px;
+}
+
+.act {
+    margin: 0.75rem;
+}
+
+
+
+.hidden-lg{
+    display: none;
+}
+
+.act .row{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.act .col-6, .act .col-5, .act .col-7{
+    padding: 0;
+}
+
+.next-btn i{
+    color:#fff;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.next-btn{
+    position: absolute;
+    right:1.5rem;
+    border-radius: 50%;
+    width:35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-form .next-btn{
+    position: absolute;
+    right:0rem;
+    border-radius: 50%;
+    width:35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-form{
+    position: absolute;
+    right:1.5rem;
+}
+
+/*Text*/
+.text-container {
+    font-family: "Hind Madurai", Arial;
+    font-size: 16px;
+    overflow:hidden; 
+    height:auto;
+}
+
+.btn i {
+    color: #fff;
+}
+
+.text-container iframe {
+    border-radius: .75rem!important;
+    height: auto;
+}
+
+/*Normal screen size*/
+@media only screen and (min-width:768px){
+    main {
+        padding-left: 1rem !important;  
+        padding-right: 1rem !important;
+    }
+
+    /*.intro-video {
+        padding-right: 0;
+    }*/
+
+    .materiales img {
+        width: 100%;
+    }
+
+    .materiales-video img {
+        width: 100%;;
+    }
+
+    .text-col{
+        min-height: 1px;
+    }
+
+    .text-block{
+        position: static;
+        display: flex;
+        overflow: auto;
+        height:256px;
+    }
+
+    .text-content{
+        height: 100%;
+    }
+}
+/*Breakpoint 2*/
+@media only screen and (min-width:900px) and (max-width: 1200px){
+
+    .act-card h3 {
+        font-size: 1.2vw;
+    }
+
+    .act:last-child h3{
+        font-size: .8vw;
+        margin-bottom: 0;
+        
+    }
+
+    
+
+    .img-act {
+        width: 100px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+/*Breakpoint 3*/
+@media only screen and (min-width:768px) and (max-width: 900px){
+
+    .act-card h3 {
+        font-size: 1.2vw;
+    }
+
+    .transcript{
+        margin-top: 1rem;
+    }
+
+    .act:last-child h3{
+        font-size: .8vw;
+        margin-bottom: 0;
+        
+    }
+
+    .img-act {
+        width: 90px;
+        padding:10px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/*Screen mobile si<e*/
+@media only screen and (max-width:768px){
+    .act {
+        margin-top: 1rem;
+    }
+
+    .act-card h3, .act:last-child h3 {
+        font-size: 4vw;
+    }
+
+    .act-card{
+        padding-top: 1.75rem !important;
+        padding-bottom: 1.75rem !important;
+    }
+
+    .hidden-lg{
+        display: block;
+    }
+
+    .act:first-child{
+        margin-top: 0;
+    }
+
+    .text-col{
+        margin-top: 1rem;
+    }
+}
+
+.hidden{
+    display: none !important;
+}
+
+@media (max-width: 1300px) {
+    .btn-responsive a{
+        margin: 10px !important;
+    }
+    .btn-responsive a, .btn-responsive button{
+        font-size: calc(.35em + .40vw);
+    }
+}
+
+@media (max-width: 1299px) {
+    .h-px-400{
+        height: 320px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+    .card, .wd100, .wd30{
+        width: 100% !important;
+    }
+    .btn-responsive a, .btn-responsive button{
+        font-size: calc(.7em + .7vw);
+    }
+    .material-display{
+        display: block !important;
+    }
+    .h-px-400{
+        height: 450px !important;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
